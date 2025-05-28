@@ -8,7 +8,6 @@ A comprehensive university recommendation system that helps students find the be
 - AI-powered university matching based on student preferences
 - Comprehensive filtering by country, field of study, and target start year
 - Dynamic year selection (current year + 10 years)
-- Consolidated country data (removes duplicates like "Hong Kong" vs "Hong Kong SAR")
 
 ### 📊 Rich University Data
 - Extensive database of universities worldwide
@@ -50,6 +49,7 @@ A comprehensive university recommendation system that helps students find the be
 - **QS Rankings API** - University ranking data
 - **CSV Data Processing** - University database management
 - **MySQL Connector** - Database connectivity
+- **Langgraph** - Utilized for building robust and stateful multi-agent applications
 
 ## Project Structure
 
@@ -149,21 +149,7 @@ university-recommender/
 - QS Rankings integration
 - Country and field consolidation
 
-## Key Features Implementation
 
-### Country Consolidation
-The system automatically consolidates duplicate country entries:
-- "Hong Kong SAR" → "Hong Kong"
-- "China (Mainland)" → "China"
-- "Macau SAR" → "Macau"
-
-### Field Grouping
-Fields of study are intelligently grouped to remove duplicates:
-- "Computer Science 1001+" → "Computer Science"
-- "Engineering 5, 6, 7" → "Engineering"
-
-### Dynamic Year Selection
-Target start year dropdown automatically generates options from current year to 10 years in the future.
 
 ## Development
 
