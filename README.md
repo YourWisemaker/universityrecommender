@@ -153,12 +153,6 @@ university-recommender/
 
 ## Development
 
-### Code Style
-- Frontend: ESLint + Prettier for TypeScript/React
-- Backend: Black + isort for Python formatting
-- Consistent naming conventions across the stack
-
-
 ## Contributing
 
 1. Fork the repository
