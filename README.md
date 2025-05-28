@@ -158,12 +158,6 @@ university-recommender/
 - Backend: Black + isort for Python formatting
 - Consistent naming conventions across the stack
 
-### Database Schema
-The MySQL database contains:
-- Universities table with comprehensive university data
-- Country codes and names
-- Fields of study and research areas
-- Rankings and metrics
 
 ## Contributing
 
