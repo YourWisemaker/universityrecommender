@@ -1,0 +1,33 @@
+# FastAPI and web server dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.5
+
+# Langgraph and LangChain dependencies
+langgraph>=0.0.40
+langchain>=0.0.350
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+openai>=1.0.0
+
+# Pydantic for data validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# HTTP client for API calls
+httpx>=0.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# File processing
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Async support
+aiofiles>=23.0.0
+
+# Type hints
+typing-extensions>=4.5.0
